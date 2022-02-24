@@ -1,0 +1,23 @@
+.Modal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+  
+  .Modal form {
+    display: flex;
+    padding: 1rem 1rem;
+    border-radius: 10px;
+    text-align: center;
+    flex-direction: column;
+    gap: 2rem;
+    background-color: #fff;
+    box-shadow: 5px 10px 15px #fff;
+  }
+  
