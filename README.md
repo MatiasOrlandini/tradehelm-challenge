@@ -1,70 +1,38 @@
-# Getting Started with Create React App
+![Tradehelm](./public/logo.svg "TradeHelm")
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+En el camino desde mi casa al supermercado, mi cerebro pierde la capacidad de retener información, por ende necesito hacer una aplicación que se encargue de esa difícil tarea. No, no puedo usar Google Keep, Evernote, nada, soy dev, la tengo que hacer, además esto es un challenge así que agarrá la pala.
 
-## Available Scripts
+### La aplicación debe:
+* Mostrar un formulario para agregar elementos a la lista.
+* Poder borrar cada elemento de la lista independientemente.
+* Mantener los elementos de la lista cuando vuelvo a la aplicación después de cerrarla.
 
-In the project directory, you can run:
+> En caso de guardar los datos solo en `localStorage`, se debe simular un delay al cargar, guardar y borrar los elementos, como si interactuaramos con un servicio externo.
 
-### `npm start`
+### Es necesario:
+* Cumplir con las reglas de linting del .eslintrc
+* Tipar el item de lista de supermercado.
+* Cumplir con las especificaciones visuales.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Es muy importante:
+* Pensar en la experiencia de usuario, minimizar la cantidad de interacciónes necesarias para usar la aplicación.
+* Ser ordenada/o a la hora de codear y estructurar archivos. Keep it simple.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### No es necesario, pero suma:
+* Tipar todos los elementos que usa la aplicación.
+* Agregar tests unitarios, con jest para funciones, con react-testing-library para componentes.
+* Agregar tests de integración, con Cypress o afínes.
 
-### `npm test`
+Cualquier adicional que contribuya a la aplicación sin complicarla, suma, dark mode por ejemplo.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Se puede usar:
+* Cualquier solución de estilos integrada o de fácil integración con `create-react-app` (CSS Modules, CSS Plano, SASS).
 
-### `npm run build`
+### Modalidad de entrega:
+* Repositorio público subido a GitHub, Gitlab, Bitbucket.
+* Link a la aplicación funcionando.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Ejemplos:
+> ![Vacío](./specs/vacio.png "Vacío")
+> ![Formulario](./specs/formulario.png "Formulario")
+> ![Lleno](./specs/lleno.png "Lleno")
