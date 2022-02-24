@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/tradehelm-challenge/static/css/main.9959ac37.css",
+    "main.js": "/tradehelm-challenge/static/js/main.0f79202f.js",
+    "static/js/787.66ddc6af.chunk.js": "/tradehelm-challenge/static/js/787.66ddc6af.chunk.js",
+    "index.html": "/tradehelm-challenge/index.html",
+    "main.9959ac37.css.map": "/tradehelm-challenge/static/css/main.9959ac37.css.map",
+    "main.0f79202f.js.map": "/tradehelm-challenge/static/js/main.0f79202f.js.map",
+    "787.66ddc6af.chunk.js.map": "/tradehelm-challenge/static/js/787.66ddc6af.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9959ac37.css",
+    "static/js/main.0f79202f.js"
+  ]
+}
